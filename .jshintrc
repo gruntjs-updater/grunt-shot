@@ -1,13 +1,32 @@
 {
+  "quotmark": "single",
   "curly": true,
   "eqeqeq": true,
   "immed": true,
-  "latedef": true,
+  "latedef": false,
   "newcap": true,
   "noarg": true,
   "sub": true,
   "undef": true,
-  "boss": true,
+  "unused": true,
   "eqnull": true,
-  "node": true
+  "multistr": true,
+  "browser": true,
+  "debug": false,
+  "globals": {
+    "window": false,
+    "$": false,
+    "angular": false,
+    "P": false,
+    "console": false,
+    "Cookies": false,
+    "Materialize": false,
+    "swal": false,
+    "describe": false,
+    "beforeEach": false,
+    "afterEach": false,
+    "expect": false,
+    "it": false,
+    "jasmine": false
+  }
 }
